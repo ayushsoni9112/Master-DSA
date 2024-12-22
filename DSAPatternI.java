@@ -16,7 +16,7 @@ public class DSAPatternI {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (i == 0 || j == n/2 ||i == n-1) {
-                    System.out.print("* ");
+                    System.out.print("I ");
                 } else {
                     System.out.print("  ");
                 }
